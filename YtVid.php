@@ -1,5 +1,6 @@
 <?php
-$Tok ='5973681542:AAG087P7_ukTl5ZCAfYJNyOOXzs3EwT_C-M';
+$Tok ='
+5806324512:AAFHWXiaj_bK3cjgKjVCW_OWSWWu83J31DM';
 define('API_KEY',$Tok);
 function bot($method,$datas=[]){
 $function = http_build_query($datas);
@@ -18,7 +19,8 @@ $message_id =  $message->message_id;
 $name = $message->from->first_name;
 $user = $message->from->username;
 $id = $message->from->id;
-$admin =5824115936;
+$admin =
+ 5044703512;
 
 #بداية الاوامر
 if($text == "/start" and $id != $admin){
